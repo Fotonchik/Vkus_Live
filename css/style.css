@@ -1,0 +1,127 @@
+
+.socialIcons li a:hover.pong {
+  color: #DB4437;
+  text-shadow: 0px 0px 0px #DB4437,0px 1px 2px #d33426,0px 2px 2px #bd2e22,0px 3px 2px #a7291e,0px 4px 2px #92241a,0px 5px 2px #7c1e16,0px 6px 2px #671912,0px 7px 2px #51140f,0px 8px 2px #3b0f0b,0px 9px 2px #260907,0px 10px 2px #100403;}
+
+
+.socialIcons {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: inline-block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 70px;
+  text-align: center;}
+.socialIcons li {
+  display: inline-block;
+  margin: auto 10px;}
+.socialIcons li a {
+  display: inline-block;
+  font-size: 2rem;
+  line-height: 100px;
+  color: #F1DABF;
+  transition: all ease 0.5s;
+  text-shadow: 0px 0px 1px black, 0px 0px 1px black;
+  transform: rotateX(-30deg);}
+.socialIcons li a:hover {
+  transform: rotateX(-30deg) translateY(-20px);}
+.socialIcons li a:hover.googlePlus {
+  color: #DB4437;
+  text-shadow: 0px 0px 0px #DB4437,0px 1px 2px #d33426,0px 2px 2px #bd2e22,0px 3px 2px #a7291e,0px 4px 2px #92241a,0px 5px 2px #7c1e16,0px 6px 2px #671912,0px 7px 2px #51140f,0px 8px 2px #3b0f0b,0px 9px 2px #260907,0px 10px 2px #100403;}
+.socialIcons li a:hover.vk {
+  color:deepskyblue;
+  text-shadow: 0px 0px 0px deepskyblue,0px 1px 2px deepskyblue,0px 2px 2px deepskyblue,0px 3px 2px blue,0px 4px 2px blue,0px 5px 2px ,0px 6px 2px blue,0px 7px 2px darkblue,0px 8px 2px darkblue,0px 9px 2px darkblue,0px 10px 2px darkblue;}
+.socialIcons li a:hover.mail {
+  color:deepskyblue;
+  text-shadow: 0px 0px 0px blue,0px 1px 2px blue,0px 2px 2px deepskyblue,0px 3px 2px blue,0px 4px 2px blue,0px 5px 2px ,0px 6px 2px blue,0px 7px 2px darkblue,0px 8px 2px darkblue,0px 9px 2px darkblue,0px 10px 2px darkblue;}
+.socialIcons li a:hover.whatsapp {
+  color:chartreuse;
+  text-shadow: 0px 0px 0px chartreuse,0px 1px 2px chartreuse,0px 2px 2px chartreuse,0px 3px 2px forestgreen,0px 4px 2px forestgreen,0px 5px 2px forestgreen,0px 6px 2px #671912,0px 7px 2px darkgreen,0px 8px 2px darkgreen,0px 9px 2px darkgreen,0px 10px 2px darkgreen;}
+.button {
+  display: inline-block;
+  background: #C6F66F;
+  color: #fff;
+  text-transform: uppercase;
+    
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+.button:hover {
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -10px) scale(1.2);
+          transform: translate(0px, -10px) scale(1.2);
+}
+#ico{
+float: center;
+margin-top: 20px;
+margin-bottom: 90px;}
+
+.body-top{
+width: 80%;
+border: none;
+margin: auto;
+    font: 20px "Times New Roman", Verdana, Arial, Helvetica, sans-serif;
+text-align: center;}
+header{
+padding: 1em;
+color: white;
+background-color: #98ED00;
+vertical-align: center;}
+
+#logo{
+max-width: 180px;
+max-height: 140px;
+}
+.col-9{display: flex;}
+
+
+@media screen and (max-width: 768px){
+#logo{
+max-width: 100px;
+max-height: 70px;}
+h1{
+font-size: 18px;}
+ 
+.tour{ min-width: 100%;
+    padding-bottom: 10%;
+}
+}
+
+#menu {    background-color: #C6F66F;}
+#menu  a{color:#228653}
+    
+.tour{
+outline: solid transparent;
+    float: left; 
+}
+.tour img{
+min-width: 330px;
+height: 170px;
+padding: 5px; }
+
+.tour a{
+background-color: #C6F66F;
+box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px
+#000 inset;
+color: white;}
+
+a{  
+text-decoration:none; 
+color:#228653}
+
+html{
+    height: 100%;}
+body{
+min-height:100%;
+position: relative;
+    padding-bottom: 30%;
+
+background-color: #e6e6f2; }
